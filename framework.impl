@@ -1,4 +1,4 @@
-interface android.accounts.IAccountManager;
+nterface android.accounts.IAccountManager;
 interface android.accounts.IAccountManagerResponse;
 interface android.accounts.IAccountAuthenticator;
 interface android.accounts.IAccountAuthenticatorResponse;
@@ -55,3 +55,7 @@ interface com.android.internal.telephony.IPhoneSubInfo;
 interface com.android.internal.telephony.ITelephony;
 parcelable android.net.wifi.BatchedScanSettings;
 parcelable android.net.wifi.BatchedScanResult;
+import android.*;
+import androidx.*;
+
+
